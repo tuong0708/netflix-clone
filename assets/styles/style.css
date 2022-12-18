@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Netflix Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+header {
+  height: 700px;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 48px;
+}
+
+header .navbar .logo {
+  width: 140px;
+  z-index: 1;
+}
+
+header .navbar .buttons {
+  z-index: 1;
+}
+
+header .navbar .buttons .language-selector {
+  border: 1px solid #fff;
+  color: #fff;
+  background: none;
+  padding: 8px 16px;
+}
+
+header .navbar .buttons .sign-in-btn {
+  background: #e50914;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-left: 24px;
+}
+
+header .hero {
+  position: relative;
+  margin-top: -86px;
+  z-index: -1;
+  height: 100%;
+}
+
+header .hero .background {
+  position: relative;
+  height: 100%;
+}
+
+header .hero .background img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+header .hero .background .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, transparent 60%, rgba(0, 0, 0, 0.8));
+}
+
+header .hero .content {
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 220px 25% 0 25%;
+}
+
+header .hero .content h1 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.1;
+  margin-bottom: 16px;
+  padding: 0 40px;
+}
+
+header .hero .content h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.625rem;
+  margin-bottom: 28px;
+}
+
+header .hero .content p {
+  color: #fff;
+  text-align: center;
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+
+header .hero .content .get-started-form {
+  width: 100%;
+  display: flex;
+}
+
+header .hero .content .get-started-form input {
+  width: 70%;
+  height: 56px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+header .hero .content .get-started-form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 56px;
+  background-color: #e50914;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  font-size: 24px;
+}
+
+header .hero .content .get-started-form button svg {
+  padding-left: 8px;
+  height: 24px;
+} /*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
